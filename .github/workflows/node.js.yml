@@ -24,4 +24,4 @@ jobs:
         run: docker build -f Dockerfile -t myapp .
 
       - name: Docker Push
-        run: docker push ${{ secrets.USER_NAME }}/reponode
+        run: docker push ${{ secrets.USER_NAME }}/myapp
