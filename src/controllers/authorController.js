@@ -4,7 +4,7 @@ const AuthorModel=require("../models/authorModel")
 let createAuthors=async function(req,res){
 
     try{
-        let data=req.body
+        let data=req.body;
         let createAuthor=await AuthorModel.create(data)
         res.status(201).send({data:createAuthor,status:true})
 
