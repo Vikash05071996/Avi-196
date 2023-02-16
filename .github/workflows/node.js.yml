@@ -24,4 +24,4 @@ jobs:
         run: docker build --file Dockerfile --tag ${{ secrets.USER_NAME }}/reponode .
 
       - name: Docker Push
-        run: docker push ${{ secrets.USER_NAME }}/reponode .
+        run: docker push ${{ secrets.USER_NAME }}/reponode 
