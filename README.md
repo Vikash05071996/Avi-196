@@ -90,5 +90,5 @@ Blogs
   "deleted": false,
   "deletedAt": "", // if deleted is true deletedAt will have a date 2021-09-17T04:25:07.803Z,
   "createdAt": "2021-09-17T04:25:07.803Z",
-  "updatedAt": "2021-09-17T04:25:07.803Z",
+   "updatedAt": "2021-09-17T04:25:07.803Z",
 }
