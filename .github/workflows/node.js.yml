@@ -21,7 +21,7 @@ jobs:
           password: ${{ secrets.PASSWORD }}
 
       - name: Build the Docker image
-        run: docker build -f Dockerfile -t myapp .
+        run: docker build -f Dockerfile -t proj:myapp .
 
       - name: Docker Push
-        run: docker push ${{ secrets.USER_NAME }}/myapp
+        run: docker push ${{ secrets.USER_NAME }}/proj:myapp
