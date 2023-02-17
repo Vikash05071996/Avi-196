@@ -15,7 +15,7 @@ const AuthorSchema = new mongoose.Schema({
         required: true,
         validate:{validator:validator.isEmail,
                 message: '{VALUE} is not a valid email',
-                isAsync: false
+                isAsync: false;
     
         
         }
